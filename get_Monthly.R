@@ -8,7 +8,7 @@ get_Monthly<-function(symbol, startDate, endDate){
   tryCatch(
     {
       #get only open price and close price
-      getSymbols(symbol,src="google",)
+      getSymbols(symbol,src="yahoo",)
       price<-na.approx(get(symbol)[paste(startdate, '/', enddate, sep = '')][,c(1,4)])
       names(price)[1]<-"open"
       names(price)[2]<-"close"
