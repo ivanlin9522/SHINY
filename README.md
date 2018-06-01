@@ -22,3 +22,4 @@ plot_data.R contains plotting functions that will show histogram and linear regr
 
 utility_list.txt contains 93 stock symbols in US utility sector.
 
+If you find the trending strategy part confusing, you can refer to my undergraduate thesis "Empirical Study on trending strategies in Chinese commodity futures market".
